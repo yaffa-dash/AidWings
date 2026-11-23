@@ -1,0 +1,29 @@
+{
+    "project": "AidWings",
+    "dataset_version": "1.0",
+    "categories": [
+        {
+            "id": 0,
+            "name": "blocked_access_route",
+            "description": "A route that is visibly obstructed or inaccessible."
+        },
+        {
+            "id": 1,
+            "name": "damaged_infrastructure",
+            "description": "Visible damage to buildings, roads, bridges, or other infrastructure."
+        },
+        {
+            "id": 2,
+            "name": "supply_shortage",
+            "description": "Verified visual evidence of insufficient humanitarian supplies."
+        },
+        {
+            "id": 3,
+            "name": "other",
+            "description": "Images that do not fit the other categories."
+        }
+    ],
+    "human_review_required": true,
+    "training_status": "Not started",
+    "images_collected": 0
+}
